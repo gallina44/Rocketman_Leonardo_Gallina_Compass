@@ -195,45 +195,45 @@
 
 //For
 //console.log('Estou aprendendo');
-for (let i = 5; i >= 1; i--){
-    if(i % 2 !== 0){
-        console.log(i);
-    }
-}
+//for (let i = 5; i >= 1; i--){
+ //   if(i % 2 !== 0){
+ //       console.log(i);
+//    }
+//}
 //While
-let i = 5;
+//let i = 5;
 
-while (i >= 1) {
-    if(i % 2 !== 0){
-        console.log(i);
-    }
-    i--;
-}
+//while (i >= 1) {
+ //   if(i % 2 !== 0){
+ //       console.log(i);
+//    }
+ //   i--;
+//}
 
 //Do While
-i = 0;
-do {
+//i = 0;
+//do {
     console.log('Digitando!');
-    i++;
-} while (i < 10)
+ //   i++;
+//} while (i < 10)
 
 //For in
 
-const pessoa = {
-    nome: 'Leonardo',
-    idade: 25
-};
-for(let chave in pessoa){
-    console.log(chave,pessoa);
-}
+//const pessoa = {
+//    nome: 'Leonardo',
+//    idade: 25
+//};
+//for(let chave in pessoa){
+ //   console.log(chave,pessoa);
+//}
 
-const cores = ['Vermelho','Verde','azul'];
-for(let indice in cores){
-    console.log(indice,cores[indice])
-}
+//const cores = ['Vermelho','Verde','azul'];
+//for(let indice in cores){
+ //   console.log(indice,cores[indice])
+//}
 
 //For of
-const cores = ['Vermelho','Verde','azul'];
-for(let cor of cores){
-    console.log(cor);
-}
+//const cores = ['Vermelho','Verde','azul'];
+//for(let cor of cores){
+ ///   console.log(cor);
+//}
