@@ -136,3 +136,104 @@
 //Operadores lógicos NOT ( ! )
 //let candidatoRecusado = !podeAplicar;
 //console.log(candidatoRecusado);
+
+////////////////////////////////////////////////////////////////////
+
+//Mini projetinho (trocar variáveis de lugares)
+//let a = 'vermelho';
+//let b = 'azul';
+//let aux;
+
+//aux = a;
+//a = b;
+//b = aux;
+
+//console.log(a);
+//console.log(b)
+
+//////////////////////////////////////////////////////////////////////
+
+//Laços de repetições
+
+// IF .. Else
+//Se a hora estiver entre 06:00 até 12:00 -> Bom dia
+//Se a hora estiver entre 12:00 até 18:00 -> Boa tarde
+//Caso contrário -> Boa noite
+
+//let hora = 10;
+
+//if (hora > 6 && hora < 12){
+//    console.log("Bom dia");
+//}
+//else if (hora > 12 && hora < 18){
+//    console.log("Boa tarde");
+//}
+//else{
+//    console.log("Boa noite");
+//}
+
+//Switch ... Case
+//Comum, Gerente, Diretor
+//let repeticao; 
+//permissao = " ";
+//switch (permissao){
+ //   case "comum":
+ //       console.log('Usuário Comum');
+//        break;
+
+ //       case "Gerente":
+ //       console.log('Usuário Gerente');
+ //       break;
+
+ //       case "Diretor":
+ //       console.log('Usuário Diretor');
+//        break;
+
+//        default:
+//        console.log('Usuário não encontrado')
+//};
+
+//For
+//console.log('Estou aprendendo');
+for (let i = 5; i >= 1; i--){
+    if(i % 2 !== 0){
+        console.log(i);
+    }
+}
+//While
+let i = 5;
+
+while (i >= 1) {
+    if(i % 2 !== 0){
+        console.log(i);
+    }
+    i--;
+}
+
+//Do While
+i = 0;
+do {
+    console.log('Digitando!');
+    i++;
+} while (i < 10)
+
+//For in
+
+const pessoa = {
+    nome: 'Leonardo',
+    idade: 25
+};
+for(let chave in pessoa){
+    console.log(chave,pessoa);
+}
+
+const cores = ['Vermelho','Verde','azul'];
+for(let indice in cores){
+    console.log(indice,cores[indice])
+}
+
+//For of
+const cores = ['Vermelho','Verde','azul'];
+for(let cor of cores){
+    console.log(cor);
+}
